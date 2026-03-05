@@ -1,2 +1,5 @@
 # JH-ERESA-Repo
-First repo, might edit later
+
+coding lessons here
+
+wow

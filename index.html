@@ -52,11 +52,18 @@ ul li a:hover{
     scale: 1.2;
     color: #ff7300;
     border: 2px solid #d000ff;
-    transform: translate(20px, 0px);
+    transform: translate(20px, 0px) rotatex(360deg);
 }
     .jingleheimer{
     color: #7bfdff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    img{
+        scale: .2;
+        transition: transform 1s;
+    }
+    img:active{
+        transform: rotate(1080deg);
     }
 </style>
 </head>
@@ -72,6 +79,7 @@ ul li a:hover{
         <li><a href=quotes.html>The Quotes Demo</a></li>
         <li><a href="boxes.html">The Boxes Demo</a></li>
     </ul>
+    <img src="meeb.png" alt="meebkinhead">
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Jacob's Second Demo Page</title>
+<title>Jacob's Index Page</title>
 <style>
     body {
     background: #00ad90;
@@ -24,10 +24,36 @@
     color:#008000;
     font-family: cursive
     }
-    a{
-    color: #0033ff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    }
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul li a{
+    color: #7fff00;
+    text-decoration: none;
+    background: #008080;
+    display: block;
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    border: 2px dashed #800080;
+    box-shadow: inset 10px 10px 5px #530080cf;
+    scale: 1;
+    transition: scale .4s, box-shadow .4s, background .4s, color .4s, transform .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a:hover{
+    background: #530080cf;
+    box-shadow: inset 15px 15px 10px #008080;
+    scale: 1.2;
+    color: #ff7300;
+    border: 2px solid #d000ff;
+    transform: translate(20px, 0px);
+}
     .jingleheimer{
     color: #7bfdff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -42,9 +68,9 @@
     <p class="john">This is the second demo of coding.</p>
     <p class="jingleheimer">Wake up the Wublins!</p>
     <ul>
-        <li><a href="JH-NewTextFile.html">My first demo.</a></li>
-        <li><a href=quotes.html>The Quotes Demo.</a></li>
-        <li><a href="boxes.html">The Boxes Demo.</a></li>
+        <li><a href="JH-NewTextFile.html">My first Demo</a></li>
+        <li><a href=quotes.html>The Quotes Demo</a></li>
+        <li><a href="boxes.html">The Boxes Demo</a></li>
     </ul>
 </body>
 

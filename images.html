@@ -5,6 +5,44 @@
 <meta charset="utf-8">
 <title>Jacob's Images</title>
 <style>
+    h1{
+        color: #9400d3;
+    }
+    body{
+        background-image: url("waves.png");
+    }
+img{
+    border: 5px solid #00aaff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #00aaff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    transition: transform .5s, box-shadow .5s;
+}
+img:hover{
+    transform: rotatey(50deg);
+    box-shadow: 40px 10px 30px #00aaff;
+}
+#patrick{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #af6370;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    margin-top: 25px;
+    color: #9400d3;
+    transition: color 0.2s, scale .2s;
+    cursor:context-menu
+}
+#patrick:hover{
+    color: #008080;
+    scale: 1.1
+}
 
 </style>
 </head>
@@ -12,6 +50,9 @@
 <body>
 <h1>Here's an image of a starfish.</h1>
 <img src="starfish.jpg" alt="red starfish in shallow water" />
+<div id="patrick">
+    <p><b>Starfish are a type of invertebrate found in the ocean. Their limbs are all conected by a single nervous system. Whenever a limb is removed, a new one will grow in its place, and sometimes even a new starfish will grow from said limb. They eat their prey by throwing up their intestines and injecting the prey with enzymes.</b></p>
+    </div>
 <h2><a href="index.html">Home</a></h2>
 </body>
 

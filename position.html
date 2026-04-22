@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Jacob's blank</title>
+<style>
+body{
+    background: #53008b;
+}
+a{
+    color: cyan;
+    text-decoration: none;
+    transition: color .4s;
+}
+h1 a:hover{
+    color: #e600ff;
+}
+div{
+    width: 350px;
+    height: 300px;
+    background: #2e8b57;
+    box-shadow: inset 50px 50px 20px #008cff;
+    margin: 100px;
+    border-radius: 200px;
+    border: 5px solid #663399;
+    text-align: center;
+}
+#static{
+    background: cyan;
+    box-shadow: inset 50px 50px 20px purple;
+    border: 5px solid #2e8b57;
+    position: static;
+}
+#sticky{
+    box-shadow: inset 50px 50px 20px green;
+    border: 5px solid greenyellow;
+    position: sticky;
+}
+#relative{
+    box-shadow: inset 50px 50px 20px red;
+    border: 5px solid orange;
+    position: relative;
+    left: 150px;
+    top: -150px;
+    z-index: -10;
+}
+#fixed{
+    background: rebeccapurple;
+    background-image: url(PurpleSpace.gif);
+    border: 5px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+#absolute{
+    background: black;
+    box-shadow: inset 50px 50px 20px white;
+    border: 5px solid gray;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+}
+</style>
+</head>
+
+<body>
+<div id="static">Static</div>
+<div id="sticky">Sticky</div>
+<div id="relative">Relative</div>
+<div id="fixed">Fixed</div>
+<div id="absolute">Absolute</div>
+<h1><a href="index.html">Home</a></h1>
+</body>
+
+</html>
